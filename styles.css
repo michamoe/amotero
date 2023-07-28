@@ -1,0 +1,119 @@
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:rgb(211, 243, 221);
+}
+
+main{
+    display: flex;
+    flex-wrap: flex;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+/* This is the flexbox-fail
+
+header {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+article{
+    margin: 10px;
+}
+
+article img{
+    max-width: 303px;
+    max-height: 227px;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+    max-width: 227px;
+}
+
+h2{
+    text-align: center;
+}
+
+article{
+    align-items: center;
+}
+*/
+
+/* this is the grid tryout */
+
+header {
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+h1{
+    background: linear-gradient(yellow, black);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+    max-width: 303px;
+    max-height: 227px;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+    max-width: 227px;
+}
+
+footer{
+        background: linear-gradient(black, yellow);
+}
+
+nav {
+    text-align: center;
+  }
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    article{
+        padding-bottom: 30px;
+    }
+    h1{
+        font-size: 45px;
+    }
+}
