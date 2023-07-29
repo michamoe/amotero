@@ -75,8 +75,8 @@ article {
 
 article img {
     width: 100%;
-    max-width: 303px;
-    max-height: 227px;
+    max-width: 454px;
+    max-height: 340px;
     margin: 15px;
 }
 
@@ -87,7 +87,7 @@ h2 {
 
 p {
     margin: 0;
-    max-width: 227px;
+    max-width: 340px;
 }
 
 footer{
